@@ -31,7 +31,7 @@ export default function RootLayout({
     >
       <body className="flex min-h-screen flex-col justify-between">
         <Header />
-        <main>{children}</main>
+        <main className="grow bg-[#f8f9fc]">{children}</main>
         <Footer />
       </body>
     </html>
